@@ -117,6 +117,22 @@ This repository does not redistribute patient-level TCGA/CGGA-derived matrices, 
 
 The repository provides public-facing scripts and documentation for the final locked workflow. Full re-execution requires access to the authorized source data and third-party resources listed above. The manuscript and Supplementary Information describe the locked artifacts, model hyperparameters, stochastic seeds, major package versions, and fixed script run order.
 
+## License, citation, and authorship
+
+This repository is shared for academic review, methodological transparency, and
+non-commercial reproducibility of the associated GIBD study. It is not released
+as unrestricted open-source software.
+
+The code, documentation, figures, workflow design, reported results, and
+analysis structure remain the intellectual work of the author unless otherwise
+stated. Use of this repository requires proper citation of the associated
+manuscript and this repository. Redistribution, commercial use, sublicensing, or
+presentation of this work as another person's original research is not permitted
+without prior written permission.
+
+See `LICENSE` for the full research-use and citation terms, and `CITATION.cff`
+for citation metadata.
+
 ## Methodological guardrails
 
 - TCGA was used for model development and locking.
@@ -133,7 +149,8 @@ The repository does not support claims of clinical deployment readiness, treatme
 
 ## Suggested citation
 
-If using this workflow, please cite the associated manuscript after publication.
+If using this workflow, please cite the associated manuscript after publication
+and cite this repository using the metadata in `CITATION.cff`.
 
 ## Contact
 

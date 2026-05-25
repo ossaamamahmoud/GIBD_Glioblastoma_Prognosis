@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the associated manuscript and this repository."
+title: "GIBD: Graph-Informed Biomarker Discovery-Driven Machine Learning Framework for Glioblastoma Prognosis"
+authors:
+  - family-names: "Mahmoud"
+    given-names: "Osama"
+repository-code: "https://github.com/ossaamamahmoud/GIBD_Glioblastoma_Prognosis"
+date-released: "2026-05-25"
+license: "LicenseRef-Research-Use-and-Citation"
+abstract: "Public-facing reproducibility workflow for the locked GIBD glioblastoma prognosis analysis. Patient-level data and fitted model artifacts are not redistributed."

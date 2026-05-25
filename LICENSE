@@ -1,0 +1,37 @@
+Research Use and Citation License
+
+Copyright (c) 2026 Osama Mahmoud.
+All rights reserved.
+
+This repository is made publicly available to support academic review,
+methodological transparency, and reproducibility of the associated GIBD
+glioblastoma prognosis workflow.
+
+Permission is granted to view, download, and run the repository code solely for
+non-commercial academic review, manuscript evaluation, and reproducibility of
+the associated study, subject to the following conditions:
+
+1. The original authorship, copyright notice, repository citation, and this
+   license notice must be retained.
+2. Any use, discussion, adaptation, or derivative work based on this repository
+   must cite the associated manuscript and this repository.
+3. The repository, scripts, figures, documentation, workflow design, reported
+   results, and derived analysis structure may not be redistributed,
+   sublicensed, sold, commercialized, or presented as another person's original
+   work without prior written permission from the copyright holder.
+4. No permission is granted for clinical deployment, treatment allocation,
+   patient-specific decision-making, commercial biomarker development, or use as
+   a validated clinical device.
+5. Patient-level TCGA/CGGA-derived matrices, clinical files, prediction tables,
+   fitted model objects, and local intermediate artifacts are not licensed or
+   redistributed by this repository. Users must obtain all third-party data from
+   the original authorized sources and comply with the relevant data-use terms.
+
+Except for the limited permission stated above, no rights are granted. For reuse
+beyond academic review and reproducibility, contact the corresponding author
+listed in the manuscript.
+
+THE REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR VALIDITY FOR ANY CLINICAL,
+REGULATORY, OR TRANSLATIONAL USE.
