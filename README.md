@@ -1,14 +1,14 @@
 # Graph informed biomarker discovery framework using transcriptomic machine learning for glioblastoma prognosis
 
-Public facing analysis workflow for the final locked GIBD glioblastoma prognosis study.
+Public analysis workflow for the final locked GIBD glioblastoma prognosis study.
 
-This repository provides scripts supporting a locked, transcriptomics only, graph informed glioblastoma prognostic risk prioritization workflow. The workflow is intended for reproducibility, methodological transparency, and code review. Patient level TCGA and CGGA derived matrices, clinical files, prediction tables, fitted model objects, and local intermediate artifacts are not redistributed. Users must obtain authorized input data from the original data sources.
+This repository provides scripts supporting a locked transcriptomics only graph informed glioblastoma prognostic risk prioritization workflow. The repository is intended to support reproducibility, methodological transparency, and code review. Patient level TCGA and CGGA derived matrices, clinical files, prediction tables, fitted model objects, and local intermediate artifacts are not redistributed. Users must obtain authorized input data from the original data sources.
 
 ## Study summary
 
-Graph informed biomarker discovery (GIBD) integrates RNA sequencing expression with high confidence STRING topology through weighted protein protein interaction (WPPI) self preserving feature construction. Model development, feature selection, scaler fitting, threshold selection, and final model locking were performed using TCGA only. CGGA was reserved for post lock external validation.
+Graph informed biomarker discovery, abbreviated as GIBD, integrates RNA sequencing expression with high confidence STRING topology through weighted protein protein interaction self preserving feature construction. Model development, feature selection, scaler fitting, threshold selection, and final model locking were performed using TCGA only. CGGA was reserved for post lock external validation.
 
-The locked model is interpreted as a transcriptomic risk prioritization signal, not as a clinically validated decision tool, treatment allocation rule, causal biological model, or patient specific PPI activity assay.
+The locked model is interpreted as a transcriptomic risk prioritization signal. It is not a clinically validated decision tool, treatment allocation rule, causal biological model, or patient specific PPI activity assay.
 
 ## Key reported locked workflow results
 
@@ -99,7 +99,7 @@ matplotlib==3.10.7
 joblib==1.5.2
 ```
 
-These dependencies correspond to the final numbered GIBD workflow. Broader local environment packages not used by the final locked workflow are intentionally not included in the core requirements file.
+These dependencies correspond to the final numbered GIBD workflow. Broader local environment packages that are not used by the final locked workflow are not included in the core requirements file.
 
 ## Data requirements
 
@@ -142,8 +142,6 @@ The `.gitignore` file excludes local data directories, patient level matrices, c
 
 The repository provides public facing scripts and documentation for the final locked workflow. Full re execution requires access to the authorized source data and third party resources listed above. The manuscript and Supplementary Information describe the locked artifacts, model hyperparameters, stochastic seeds, major package versions, and fixed script run order.
 
-No model retraining, feature reselection, threshold modification, recalibration, refitting, architecture change, or post lock optimization was performed as part of the repository documentation and metadata update.
-
 ## Methodological guardrails
 
 * TCGA was used for model development and locking.
@@ -154,7 +152,7 @@ No model retraining, feature reselection, threshold modification, recalibration,
 
 ## Interpretation limits
 
-The final GIBD model should be interpreted as a transcriptomic risk prioritization signal requiring further prospective recalibration, larger multicenter validation, multimodal integration, and clinical decision analytic evaluation before translational use.
+The final GIBD model should be interpreted as a transcriptomic risk prioritization signal requiring prospective recalibration, larger multicenter validation, multimodal integration, and clinical decision analytic evaluation before translational use.
 
 The repository does not support claims of clinical deployment readiness, treatment allocation, causal biology, patient specific PPI activity, or validated biomarker mechanism.
 
@@ -170,9 +168,9 @@ The workflow is not a clinically validated device, treatment allocation tool, or
 
 Use of this repository should cite the associated manuscript after publication and the archived Zenodo software record for the exact release used.
 
-Suggested software citation before manuscript publication:
+Suggested software citation for this repository release:
 
-Mahmoud O, Mounir M, Gad W. Graph informed biomarker discovery framework using transcriptomic machine learning for glioblastoma prognosis. Zenodo. Version 1.0.2.
+Mahmoud O, Mounir M, Gad W. Graph informed biomarker discovery framework using transcriptomic machine learning for glioblastoma prognosis. Zenodo.
 
 After manuscript publication, please cite both the published article and the Zenodo archived software release corresponding to the version used.
 
