@@ -147,10 +147,15 @@ The final GIBD model should be interpreted as a transcriptomic risk-prioritizati
 
 The repository does not support claims of clinical deployment readiness, treatment allocation, causal biology, patient-specific PPI activity, or validated biomarker mechanism.
 
+## License, citation, and authorship
+
+This repository is released under the MIT License for the public code and documentation. The MIT License applies only to the repository code and documentation. Patient level TCGA and CGGA derived matrices, clinical files, prediction tables, fitted model objects, and local intermediate artifacts are not redistributed or licensed by this repository. Users must obtain all third party data from the original authorized sources and comply with the relevant data use terms for TCGA, CGGA, STRING, MSigDB, Reactome, and related resources.
+
+Use of this repository should cite the associated manuscript after publication and the archived Zenodo software record for the exact release used. The repository is intended to support academic review, methodological transparency, and reproducibility of the final locked GIBD workflow. It is not a clinically validated device, treatment allocation tool, or patient specific decision system.
+
 ## Suggested citation
 
-If using this workflow, please cite the associated manuscript after publication
-and cite this repository using the metadata in `CITATION.cff`.
+If using this workflow, please cite the associated manuscript after publication and the Zenodo archived software release corresponding to the version used.
 
 ## Contact
 
