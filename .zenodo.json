@@ -1,0 +1,25 @@
+{
+    "title": "Graph informed biomarker discovery framework using transcriptomic machine learning for glioblastoma prognosis",
+    "upload_type": "software",
+    "description": "Public reproducibility workflow for a locked graph informed transcriptomic machine learning framework for glioblastoma prognostic risk prioritization.",
+    "creators": [
+        {
+            "name": "Mahmoud, Osama"
+        },
+        {
+            "name": "Mounir, Mahmoud"
+        },
+        {
+            "name": "Gad, Walaa"
+        }
+    ],
+    "keywords": [
+        "glioblastoma",
+        "transcriptomics",
+        "graph informed machine learning",
+        "protein protein interaction",
+        "external validation"
+    ],
+    "license": "MIT",
+    "version": "1.0.0"
+}
